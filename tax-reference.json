@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "countries": [
     { "country": "JP", "currency": "JPY", "taxRate": "0.10", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true },
     { "country": "KR", "currency": "KRW", "taxRate": "0.10", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true },
     { "country": "TW", "currency": "TWD", "taxRate": "0.05", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true },
-    { "country": "TH", "currency": "THB", "taxRate": "0.09", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true },
+    { "country": "TH", "currency": "THB", "taxRate": "0.07", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true },
     { "country": "SG", "currency": "SGD", "taxRate": "0.09", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true },
     { "country": "AU", "currency": "AUD", "taxRate": "0.10", "priceIncludesTax": true, "refundMode": "departure", "touristRefund": true }
   ]
