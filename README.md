@@ -8,8 +8,11 @@
 | `tax-reference.json` | 各國消費稅參考值 | **人工維護**：在 GitHub 網頁上直接改（見下方） |
 
 App 讀取的網址：
-- `https://raw.githubusercontent.com/tnth/tripcart-data/main/rates.json`
-- `https://raw.githubusercontent.com/tnth/tripcart-data/main/tax-reference.json`（失敗時改走 jsDelivr 鏡像）
+- `https://raw.githubusercontent.com/botanodev/tripcart-data/main/rates.json`
+- `https://raw.githubusercontent.com/botanodev/tripcart-data/main/tax-reference.json`（失敗時改走 jsDelivr 鏡像）
+
+> 1.0.0～1.0.2 讀的是舊網址 `tnth/tripcart-data`（2026-10-07 轉移到 botanodev 前的位置），
+> 靠 GitHub 的自動轉址。**tnth 底下不能再建同名 repo**，否則轉址失效。
 
 > **這個 repo 必須保持公開、名稱與分支不能改。** 網址寫死在已發布的 App 裡，
 > 改了之後舊版 App 抓不到資料（會退回備援來源，不會壞，但不該這樣）。
