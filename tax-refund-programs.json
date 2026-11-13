@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-13",
+  "countries": [
+    {
+      "country": "JP",
+      "minPurchaseExTax": 5000,
+      "deadlineDays": 90,
+      "maxStayMonths": 6,
+      "defaultStoreFeePct": "1",
+      "_defaultStoreFeePctSrc": "店家手續費不明時的估算值（2026-11-13 開發者決定）。清單裡多數店家在 0～2.4% 之間",
+      "operators": [
+        { "id": "jj", "name": "J-TaxRefund", "localName": "J&J Tax Free", "methodExtraPct": { "cashCounter": "1" } },
+        { "id": "gb", "name": "Global Blue", "localName": "グローバルブルー", "methodExtraPct": { "cashCounter": "1" } },
+        { "id": "sd", "name": "JPrefund", "localName": "Smart Detax", "methodExtraPct": { "cashCounter": "1", "app": "5" } },
+        { "id": "pie", "name": "PIE VAT" },
+        { "id": "planet", "name": "Planet", "localName": "Global Tax Free", "methodExtraPct": { "cashCounter": "1" } },
+        { "id": "is", "name": "IntaSect", "localName": "インタセクト", "methodExtraPct": { "cashCounter": "1" } }
+      ],
+      "_operatorsSrc": "機場領現金約另扣 1%（店家不吸收）、JPrefund 銀行匯款扣退款 5%：linshibi.com/?p=53059、newtalk.tw 2026-11-01。PIE VAT 沒有領現金",
+      "stores": [
+        { "names": ["唐吉訶德", "唐吉軻德", "ドン・キホーテ", "MEGAドン・キホーテ", "ドンキ", "Don Quijote", "Donki"], "operator": "jj", "feePct": "0", "src": "PPIH 公告：店家吸收，退回信用卡不收；機場領現金另收" },
+        { "names": ["BicCamera", "Bic Camera", "ビックカメラ"], "operator": "jj", "feePct": "0", "src": "linshibi 53059" },
+        { "names": ["多慶屋", "Takeya"], "operator": "jj", "feePct": "0", "src": "linshibi 53059" },
+        { "names": ["鶴羽", "ツルハ", "Tsuruha"], "operator": "jj", "feePct": "0", "src": "linshibi 53059" },
+        { "names": ["山田電機", "ヤマダ電機", "ヤマダデンキ", "LABI", "Yamada Denki"], "operator": "jj", "feePct": "0", "src": "linshibi 53059" },
+        { "names": ["SUNDRUG", "Sun Drug", "サンドラッグ"], "operator": "jj", "feePct": "0", "src": "linshibi 53059" },
+        { "names": ["大國藥妝", "大國", "ダイコクドラッグ", "Daikoku"], "operator": "jj", "feePct": "0", "src": "linshibi 53059" },
+        { "names": ["松本清", "マツモトキヨシ", "マツキヨ", "Matsumoto Kiyoshi"], "operator": "jj", "feePct": "0.33", "src": "linshibi 53059（只有匯款成本，待確認）" },
+        { "names": ["ココカラファイン", "Cocokara Fine", "Cocokara"], "operator": "jj", "feePct": "0.33", "src": "linshibi 53059" },
+        { "names": ["UNIQLO", "ユニクロ", "優衣庫"], "operator": "jj", "feePct": "1", "src": "linshibi 53059" },
+        { "names": ["GU", "ジーユー"], "operator": "jj", "feePct": "1", "src": "linshibi 53059" },
+        { "names": ["無印良品", "MUJI"], "operator": "jj", "feePct": "1.3", "src": "linshibi 53059" },
+        { "names": ["伊藤洋華堂", "イトーヨーカドー", "Ito Yokado"], "operator": "jj", "feePct": "1.65", "src": "linshibi 53059" },
+        { "names": ["二木高爾夫", "二木ゴルフ", "Niki Golf"], "operator": "jj", "feePct": "1.5", "src": "linshibi 53059" },
+        { "names": ["ABC-MART", "ABC MART", "ABCマート"], "operator": "jj", "feePct": "1.5", "src": "linshibi 53059" },
+        { "names": ["寶可夢中心", "ポケモンセンター", "Pokémon Center", "Pokemon Center"], "operator": "jj", "feePct": "1.5", "src": "linshibi 53059" },
+        { "names": ["2nd Street", "2nd STREET", "セカンドストリート"], "operator": "jj", "feePct": "1.5", "src": "linshibi 53059" },
+        { "names": ["Lumine", "ルミネ"], "operator": "jj", "feePct": "2.42", "src": "linshibi 53059" },
+        { "names": ["東武百貨店", "東武百貨", "Tobu Department"], "operator": "jj", "feePct": "1", "registration": "counter", "src": "linshibi 53059" },
+        { "names": ["松屋銀座", "Matsuya Ginza"], "operator": "jj", "feePct": "2.15", "feeBase": "receipt", "registration": "counter", "src": "linshibi 53059（以含稅價計）" },
+        { "names": ["三井Outlet", "三井アウトレットパーク", "Mitsui Outlet"], "operator": "pie", "feePct": "1.5", "src": "linshibi 53059" },
+        { "names": ["LaLaport", "ららぽーと"], "operator": "pie", "feePct": "1.5", "src": "linshibi 53059" },
+        { "names": ["SHIBUYA109", "渋谷109", "澀谷109"], "operator": "pie", "feePct": "1.55", "src": "linshibi 53059" },
+        { "names": ["大丸", "Daimaru"], "operator": "gb", "feePct": "2.3", "registration": "counter", "src": "linshibi 53059、newtalk 2026-11-01" },
+        { "names": ["松坂屋", "Matsuzakaya"], "operator": "gb", "feePct": "2.3", "registration": "counter", "src": "linshibi 53059、newtalk 2026-11-01" },
+        { "names": ["友都八喜", "ヨドバシカメラ", "ヨドバシ", "Yodobashi"], "operator": "gb", "feePct": "2.3", "src": "linshibi 53059" },
+        { "names": ["SUGI藥局", "スギ薬局", "Sugi Pharmacy"], "operator": "gb", "feePct": "1.6", "src": "linshibi 53059" },
+        { "names": ["EDION", "エディオン", "愛電王"], "operator": "gb", "feeFixed": 210, "src": "linshibi 53059（每筆固定 ¥210）" },
+        { "names": ["阿卡將", "アカチャンホンポ", "Akachan Honpo"], "operator": "sd", "feePct": "1.1", "feeBase": "receipt", "src": "linshibi 53059（以含稅價計）" },
+        { "names": ["Welcia", "ウエルシア"], "operator": "sd", "feePct": "1.18", "src": "linshibi 53059" },
+        { "names": ["國民藥妝", "コクミン", "Kokumin"], "operator": "sd", "feePct": "1.25", "src": "linshibi 53059" },
+        { "names": ["Alpen", "アルペン"], "operator": "sd", "feePct": "2", "src": "linshibi 53059" },
+        { "names": ["FANCL", "ファンケル", "芳珂"], "operator": "sd", "feePct": "3.5", "src": "linshibi 53059" },
+        { "names": ["3COINS", "スリーコインズ"], "operator": "sd", "feeFixed": 320, "src": "linshibi 53059（每筆固定約 ¥320）" },
+        { "names": ["AEON MALL", "イオンモール", "永旺夢樂城"], "operator": "planet", "feePct": "1.5", "src": "linshibi 53059" }
+      ],
+      "cashServices": [
+        {
+          "id": "cashJapan", "name": "Cash Japan", "feePct": "10", "unit": 50, "minPayout": 100,
+          "operators": ["gb", "jj", "sd", "is"],
+          "airports": ["NRT", "KIX", "NGO", "FUK", "CTS", "UKB"]
+        }
+      ],
+      "airports": ["NRT", "HND", "KIX", "NGO", "FUK", "CTS", "UKB", "OKA"]
+    }
+  ]
+}
